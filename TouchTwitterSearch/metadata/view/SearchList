@@ -1,0 +1,103 @@
+{
+    "id": "ExtBox1-ext-gen2330",
+    "type": "list",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|initialView": true,
+        "style": null,
+        "layout": "fit",
+        "itemTpl": "<div class=\"tweet_data\">\n<div class=\"tweet_avatar\">\n<img width=\"30\" height=\"30\" src=\"{profile_image_url}\"/>\n</div>\n<div class=\"tweet_content\">\n<a class=\"user\" href=\"http://twitter.com/{from_user}\">{from_user}</a>&nbsp;\n{text}\n</div>\n<div class=\"clear\"></div></div>",
+        "selectedCls": null,
+        "store": "Tweets",
+        "disableSelection": true,
+        "designer|userClassName": "SearchList",
+        "designer|userAlias": "searchlist"
+    },
+    "customConfigs": [],
+    "designerId": "ad80770d-bade-46e7-86b8-744ea8bf552d",
+    "$viewOrder": 0,
+    "expanded": false,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen10651",
+            "type": "toolbar",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "docked": "top",
+                "ui": "light",
+                "title": "Touch Twitter Search",
+                "designer|userClassName": "MyToolbar1"
+            },
+            "customConfigs": [],
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen4738",
+            "type": "toolbar",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "docked": "top",
+                "style": "background: #DDEEF6;",
+                "designer|userClassName": "MyToolbar"
+            },
+            "customConfigs": [],
+            "expanded": true,
+            "cn": [
+                {
+                    "id": "ExtBox1-ext-gen5189",
+                    "type": "textfield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "width": null,
+                        "label": "",
+                        "name": "textQuery",
+                        "designer|userClassName": "MyTextField",
+                        "layout|flex": 4
+                    },
+                    "customConfigs": [],
+                    "expanded": true
+                },
+                {
+                    "id": "ExtBox1-ext-gen5541",
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "ui": "round",
+                        "text": "Search",
+                        "designer|userClassName": "MyButton",
+                        "action": "search",
+                        "layout|flex": 2
+                    },
+                    "customConfigs": [
+                        {
+                            "group": "(Custom Properties)",
+                            "name": "action",
+                            "type": "string"
+                        }
+                    ],
+                    "expanded": true
+                }
+            ]
+        }
+    ]
+}

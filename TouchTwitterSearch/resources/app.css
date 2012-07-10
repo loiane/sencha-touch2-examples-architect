@@ -1,0 +1,37 @@
+#tweet_container {
+    margin: 10px;
+    padding: 5px;
+    background: #fff;
+    -webkit-border-radius: .5em;
+    -moz-border-radius: .5em;
+    border-radius: .5em;
+    border: 1px solid #8BBCD6;
+}
+.clear {
+    clear: both;
+}
+.tweet_data {
+    margin-bottom: 5px;
+    border-bottom: 1px solid #e3e3e3;
+    padding: 5px;
+}
+.tweet_avatar {
+    float: left;
+    width: 40px;
+}
+.tweet_content {
+    float: left;
+    width: 235px;
+    line-height: 16px;
+    color: #333;
+    font-size: 11px;
+}
+.user {
+    font-weight: bold;
+    color: #8BBCD6;
+    text-decoration: none;
+}
+.outlink {
+    color: #0099cc;
+    text-decoration: none;
+}

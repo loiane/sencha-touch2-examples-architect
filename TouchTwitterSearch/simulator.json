@@ -1,0 +1,16 @@
+{
+    "applicationName": "My Application",
+    "applicationId": "com.mycompany.myAppID",
+    "bundleSeedId": "KPXFEPZ6EF",
+    "versionString": "1.0",
+    "iconName": "icon.png",
+    "inputPath": "./",
+    "outputPath": "../build/",
+    "configuration": "Debug",
+    "platform": "iOSSimulator",
+    "deviceType": "Universal",
+    "certificatePath": "/path/to/certificate.file",
+    "certificateAlias": "",
+    "sdkPath": "/path/to/android-sdk",
+    "androidAPILevel": "7"
+}
