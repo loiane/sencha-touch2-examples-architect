@@ -1,0 +1,57 @@
+{
+    "name": "SenchaTouchLogin",
+    "settings": {
+        "cmd": {
+            "license": "gpl",
+            "cmdVersion": "4.0.1.45",
+            "frameworkVersion": "2.3.0.328"
+        },
+        "canvasControls": {
+            "viewportSize": {
+                "name": "iPhone",
+                "builtIn": true,
+                "height": 480,
+                "width": 320
+            },
+            "viewportOrientation": "portrait"
+        },
+        "urlPrefix": "",
+        "exportPath": "",
+        "spacesToIndent": 4,
+        "sdkPath": "",
+        "lineEnding": "LF",
+        "genTimestamps": false,
+        "cacheBust": false,
+        "buildShouldOverwriteIndex": true,
+        "generateArchitectVersion": true,
+        "lastBuildSelection": {
+            "value": "iosSimulate",
+            "display": "Simulate on iOS"
+        }
+    },
+    "xdsVersion": "3.0.0",
+    "xdsBuild": 1337,
+    "schemaVersion": 1,
+    "upgradeVersion": 300000000003,
+    "framework": "touch23",
+    "viewOrderMap": {
+        "view": [
+            "61feec8a-3fd9-44bb-ba7e-edba6f438692",
+            "3af94936-30a7-40f2-b300-b92b9f3cc247",
+            "043ecf73-5cef-48b7-b694-0bf7c2f4b3b4"
+        ],
+        "store": [],
+        "controller": [
+            "07a1693f-7c54-482f-8c99-f139ae1bc306"
+        ],
+        "model": [],
+        "resource": [
+            "f01a7e79-1bb0-43f1-86d8-c5b83d257a2f",
+            "807c2512-a2eb-4f4b-a646-297900d297d9",
+            "c9eb0453-c134-4fae-b098-6685b39daa38"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

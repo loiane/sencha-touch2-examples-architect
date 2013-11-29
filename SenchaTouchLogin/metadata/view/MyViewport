@@ -1,0 +1,37 @@
+{
+    "type": "Ext.Container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|initialView": true,
+        "designer|userAlias": "myviewport",
+        "designer|userClassName": "MyViewport",
+        "layout": "card"
+    },
+    "designerId": "61feec8a-3fd9-44bb-ba7e-edba6f438692",
+    "cn": [
+        {
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "designerId": "6350e5da-e8f7-4496-9cfd-75655797b8a4",
+            "masterInstanceId": "3af94936-30a7-40f2-b300-b92b9f3cc247"
+        },
+        {
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "designerId": "2526dc80-8c96-44dd-99cc-095180f599aa",
+            "masterInstanceId": "043ecf73-5cef-48b7-b694-0bf7c2f4b3b4"
+        }
+    ]
+}

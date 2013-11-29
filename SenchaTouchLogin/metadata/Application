@@ -1,0 +1,26 @@
+{
+    "type": "Ext.app.Application",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "controllers": [
+            "Login"
+        ],
+        "name": "MyApp",
+        "requires": [
+            "Ext.Toolbar",
+            "Ext.Label",
+            "Ext.form.FieldSet",
+            "Ext.field.Text",
+            "Ext.field.Password",
+            "Ext.util.DelayedTask"
+        ],
+        "views": [
+            "MyViewport"
+        ]
+    },
+    "designerId": "application"
+}
